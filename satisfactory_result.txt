@@ -1,131 +1,100 @@
-Targets: Building
+Target: Motor
 
-Number of buildings = 717
-Total power = 499999.9999999312
+Number of buildings = 123
+Total power = -7752.823559950244
 Outputs:
-    Quartz Crystal     = 1552.351
-    Plutonium Fuel Rod = 11.206
+    Motor = 316.482
 Resources:
-    Iron Ore     =  3.11% = 2864.579
-    Caterium Ore =  11.1% = 1664.595
-    Copper Ore   =  6.67% = 2461.36
-    Limestone    =  3.83% = 2656.371
-    Coal         =   1.1% = 466.485
-    Raw Quartz   = 23.71% = 3200.919
-    Sulfur       = 18.93% = 2044.306
-    Uranium      = 100.0% = 2100.0
-    Bauxite      =  6.32% = 777.475
+    Iron Ore     =  0.88% = 808.447
+    Caterium Ore =   2.2% = 329.669
+    Copper Ore   =  1.55% = 570.327
+    Limestone    =  0.36% = 250.626
+    Coal         =  0.79% = 332.502
+    Raw Quartz   =  5.53% = 747.012
+    Sulfur       =  0.12% = 13.338
+    Uranium      =   0.0% = 0.0
+    Bauxite      =  0.32% = 39.56
     SAM          =   0.0% = 0.0
-    Crude Oil    =  7.23% = 911.28
-    Nitrogen Gas =  31.3% = 3756.317
+    Crude Oil    =  3.12% = 392.824
+    Nitrogen Gas =   0.3% = 36.415
 
-{'Aluminum Scrap': -60, 'Aluminum Ingot': 30, 'Power': -4}
-    number = 9.329697337506897
+{'Aluminum Scrap': -90, 'Silica': -75, 'Aluminum Ingot': 60, 'Power': -16}
+    number = 0.35164671425841765
 {'Iron Ore': -75, 'Petroleum Coke': -75, 'Steel Ingot': 100, 'Power': -16}
-    number = 1.733132387964026
+    number = 1.2659281713303074
 {'Copper Ore': -50, 'Iron Ore': -50, 'Copper Ingot': 100, 'Power': -16}
-    number = 19.69087953154908
+    number = 4.562616117502976
+{'Raw Quartz': -75, 'Coal': -36, 'Quartz Crystal': 54, 'Power': -16}
+    number = 3.401422229894699
 {'Steel Ingot': -50, 'Concrete': -30, 'Steel Pipe': 50, 'Power': -16}
-    number = 3.466264775928052
+    number = 2.531856342660615
 {'Caterium Ore': -45, 'Petroleum Coke': -15, 'Caterium Ingot': 22.5, 'Power': -16}
-    number = 14.796395747070514
+    number = 2.930389285486819
 {'Aluminum Ingot': -22.5, 'Steel Beam': 22.5, 'Power': -4}
-    number = 4.471171677761351
+    number = 0.9377245713557809
 {'Steel Beam': -5, 'Screw': 260, 'Power': -4}
-    number = 3.984212386124183
-{'Plutonium Pellet': -10, 'Concrete': -20, 'Encased Plutonium Cell': 5, 'Power': -15}
-    number = 26.893433606339396
-{'Aluminum Ingot': -150, 'Copper Ingot': -75, 'Aluminum Casing': 112.5, 'Power': -15}
-    number = 1.1952637158371764
-{'Iron Plate': -90, 'Screw': -250, 'Reinforced Iron Plate': 15, 'Power': -15}
-    number = 3.1363369800968047e-13
+    number = 4.219760571101006
 {'Iron Ingot': -37.5, 'Plastic': -7.5, 'Iron Plate': 75, 'Power': -15}
-    number = 1.669474007805628
+    number = 0.016184431490807255
 {'Copper Sheet': -22.5, 'Screw': -195, 'Rotor': 11.25, 'Power': -15}
-    number = 5.3122831814985085
-{'Stator': -8, 'High-Speed Connector': -4, 'Electromagnetic Control Rod': 8, 'Power': -15}
-    number = 10.832077424774388
+    number = 5.626347428134675
+{'Silica': -15, 'Limestone': -60, 'Concrete': 50, 'Power': -15}
+    number = 1.5191138055963687
 {'Caterium Ingot': -7.5, 'Copper Ingot': -37.5, 'Quickwire': 90, 'Power': -15}
-    number = 44.3891872412107
-{'Aluminum Casing': -30, 'Rubber': -30, 'Heat Sink': 10, 'Power': -15}
-    number = 4.4822389343894145
+    number = 8.791167856460463
 {'Quickwire': -120, 'Plastic': -28, 'AI Limiter': 8, 'Power': -15}
-    number = 2.2411194671946966
-{'Encased Plutonium Cell': -10, 'Pressure Conversion Cube': -0.5, 'Plutonium Fuel Rod': 0.5, 'Power': -15}
-    number = 1.4578290574718299e-12
+    number = 2.637350356938137
 {'Steel Pipe': -16, 'Quickwire': -60, 'Stator': 8, 'Power': -15}
-    number = 10.832077424774388
-{'Limestone': -100, 'Rubber': -20, 'Concrete': 90, 'Power': -15}
-    number = 7.958052860955419
-{'Copper Sheet': -27.5, 'Silica': -27.5, 'Circuit Board': 12.5, 'Power': -15}
-    number = 3.4662647759278
-{'Encased Plutonium Cell': -7.5, 'Steel Beam': -4.5, 'Electromagnetic Control Rod': -1.5, 'Heat Sink': -2.5, 'Plutonium Fuel Rod': 0.25, 'Power': -55}
-    number = 17.928955737557658
-{'Uranium': -25, 'Silica': -15, 'Sulfur': -25, 'Quickwire': -75, 'Encased Uranium Cell': 20, 'Power': -55}
-    number = 23.684247722482816
+    number = 7.912051070814419
 {'Quartz Crystal': -18.75, 'Rubber': -13.125, 'AI Limiter': -1.875, 'Crystal Oscillator': 1.875, 'Power': -55}
-    number = 9.562109726697372
-{'Quickwire': -90, 'Silica': -37.5, 'Circuit Board': -3, 'High-Speed Connector': 3, 'Power': -55}
-    number = 14.442769899699167
-{'Encased Uranium Cell': -20, 'Electromagnetic Control Rod': -2, 'Crystal Oscillator': -0.6, 'Rotor': -2, 'Uranium Fuel Rod': 0.6, 'Power': -55}
-    number = 29.88159289593019
-{'Alumina Solution': -240, 'Coal': -120, 'Aluminum Scrap': 360, 'Water': 120, 'Power': -30}
-    number = 1.5549495562511493
+    number = 11.252694856269384
+{'Rotor': -3.75, 'Stator': -3.75, 'Crystal Oscillator': -1.25, 'Motor': 7.5, 'Power': -55}
+    number = 16.879042284404097
 {'Heavy Oil Residue': -40, 'Petroleum Coke': 120, 'Power': -30}
-    number = 2.9327572108613302
+    number = 1.1575037677672944
 {'Crude Oil': -30, 'Rubber': 20, 'Heavy Oil Residue': 20, 'Power': -30}
-    number = 12.150398207042514
+    number = 5.2376519106728
 {'Sulfur': -50, 'Water': -50, 'Sulfuric Acid': 50, 'Power': -30}
-    number = 4.512322044101593
-{'Wire': -37.5, 'Heavy Oil Residue': -15, 'Cable': 67.5, 'Power': -30}
-    number = 3.9029971307871346e-13
+    number = 0.10670784663933575
 {'Iron Ore': -50, 'Sulfuric Acid': -10, 'Iron Ingot': 100, 'Power': -30}
-    number = 0.6260527529271115
+    number = 0.006069161809052725
+{'Crude Oil': -60, 'Polymer Resin': 130, 'Heavy Oil Residue': 20, 'Power': -30}
+    number = 1.073698106040417e-15
 {'Raw Quartz': -120, 'Nitric Acid': -10, 'Dissolved Silica': 60, 'Quartz Crystal': 75, 'Power': -30}
-    number = 10.669731569280744
+    number = 0.36414970854316264
 {'Rubber': -30, 'Fuel': -30, 'Plastic': 60, 'Power': -30}
-    number = 3.6296416839198464
+    number = 2.1208107581775266
 {'Plastic': -30, 'Fuel': -30, 'Rubber': 60, 'Power': -30}
-    number = 4.750203363173982
-{'Bauxite': -200, 'Water': -200, 'Alumina Solution': 240, 'Power': -30}
-    number = 1.5549495562511404
+    number = 1.7760484086734247
 {'Copper Ingot': -22.5, 'Water': -22.5, 'Copper Sheet': 22.5, 'Power': -30}
-    number = 9.548829018743598
-{'Uranium': -50, 'Concrete': -15, 'Sulfuric Acid': 10, 'Encased Uranium Cell': 25, 'Power': -75}
-    number = 4.957876138757895
+    number = 5.626347428134675
 {'Nitrogen Gas': -120, 'Water': -30, 'Iron Plate': -10, 'Nitric Acid': 30, 'Power': -75}
-    number = 12.521055058539392
-{'Uranium Waste': -37.5, 'Silica': -25, 'Nitric Acid': -15, 'Sulfuric Acid': -15, 'Non-Fissile Uranium': 50, 'Water': 15, 'Power': -75}
-    number = 17.928955737556993
+    number = 0.12138323618105425
 {'Heavy Oil Residue': -50, 'Water': -100, 'Fuel': 100, 'Power': -75}
-    number = 2.5139535141279645
+    number = 1.1690577500552854
 {'Dissolved Silica': -120, 'Limestone': -50, 'Water': 80, 'Silica': 270, 'Power': -75}
-    number = 5.334865784640372
-{'Non-Fissile Uranium': -100, 'Uranium Waste': -25, 'Plutonium Pellet': 30, 'Power': -500}
-    number = 8.964477868779799
+    number = 0.1820748542715807
+{'Bauxite': -150, 'Coal': -100, 'Sulfuric Acid': -50, 'Water': 50, 'Aluminum Scrap': 300, 'Power': -75}
+    number = 0.10549401427752529
 {'Water': 120, 'Power': -20}
-    number = 183.42425840858724
-{'Uranium Fuel Rod': -0.2, 'Water': -240, 'Uranium Waste': 10, 'Power': 2500}
-    number = 89.64477868778822
+    number = 1.9386232708362865
 {'Iron Ore': 290.0787401574803, 'Power': -45}
-    number = 3.9500707383762523
+    number = 1.1147968880443149
 {'Caterium Ore': 352.94117647058823, 'Power': -45}
-    number = 1.8865404577514056
+    number = 0.37362463389956946
 {'Copper Ore': 268.3636363636364, 'Power': -45}
-    number = 3.6686936796585363
+    number = 0.8500809162014358
 {'Limestone': 294.89361702127655, 'Power': -45}
-    number = 3.603158949523474
+    number = 0.33995503891197476
 {'Coal': 272.9032258064516, 'Power': -45}
-    number = 0.6837366843090169
+    number = 0.4873544506882757
 {'Raw Quartz': 317.6470588235294, 'Power': -45}
-    number = 4.0307874817282805
+    number = 0.9406812497303321
 {'Sulfur': 270.0, 'Power': -45}
-    number = 3.0286010935820373
-{'Uranium': 168.0, 'Power': -45}
-    number = 5.0
+    number = 0.019760712340617735
 {'Bauxite': 289.4117647058823, 'Power': -45}
-    number = 1.074558636433716
+    number = 0.054676775692619674
 {'Crude Oil': 168.0, 'Power': -40}
-    number = 2.169713965543654
+    number = 0.9352949840487147
 {'Nitrogen Gas': 106.66666666666667, 'Power': -150}
-    number = 14.086186940856814
+    number = 0.13655614070368602

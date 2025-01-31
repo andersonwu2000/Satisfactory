@@ -20,13 +20,9 @@ resource = {
 }
 
 # ↓↓↓↓↓ Input ↓↓↓↓↓
-Lim_of_buildings = None
-# Targets = {
-#     'Power': 1
-# }
-Targets = 'Building'
+Lim_of_buildings = 100
+Target = 'Motor'
 Restrictions = {
-    'Power': (500000, 500000),
     'Plutonium Waste': (0, 0), 
     'Uranium Waste': (0, 0),  
     'Ficsonium': (0, 0), 
@@ -52,15 +48,20 @@ lp.rows.add(len(items)+1)
 lp.cols.add(len(recipes))
 
 # Objective Function
-if Targets == 'Building':
-    lp.obj[:] = [-1] * len(recipes)
-else:
-    maximize = [0] * len(recipes)
-    for row_id, item in enumerate(Targets):
-        for col_id, recipe in enumerate(recipes):
-            if item in recipe:
-                maximize[col_id] += recipe[item] * Targets[item]
-    lp.obj[:] = maximize
+maximize = [0] * len(recipes)
+for col_id, recipe in enumerate(recipes):
+    if Target == 'Building':
+        maximize[col_id] = -1
+    elif Target == 'Resource':
+        for item in resource:
+            if item in recipe and recipe[item] > 0:
+                maximize[col_id] = -1/resource[item]
+    elif Target in recipe:
+        if Target in resource and recipe[Target] > 0:
+            maximize[col_id] = -1
+            break
+        maximize[col_id] = recipe[Target]
+lp.obj[:] = maximize
 
 # Constraints
 matrix = []
@@ -114,7 +115,7 @@ total_output = {key:value for key, value in total_output.items() if value>10**-5
 
 # Output
 with open(r'Satisfactory-Linear-Programming\satisfactory_result.txt', 'w') as file:
-    file.write(f'Targets: {Targets}\n\n')
+    file.write(f'Target: {Target}\n\n')
     file.write(f'Number of buildings = {num_of_building}\n')
     file.write(f'Total power = {total_power}\n')
     file.write(f'Outputs:\n')
